@@ -50,6 +50,126 @@ img{
 main
 ________________ */
 
+.super-maxi-container{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1380px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.maxi-container{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+div.riga1{
+    margin-top: 130px;
+}
+
+.container{
+    position: relative;
+}
+/*_____________
+foto
+  _____________*/
+
+.foto-prodotto img{
+    display: flex;
+    width: 450px;
+    height: 645px;
+}
+
+.descrizione{
+    color: black;
+}
+
+.foto-uno{
+    position: static;
+}
+
+.foto-due{
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+}
+
+.foto-due:hover{
+    opacity: 1;
+}
+
+/*_____________
+ Fine foto
+  _____________*/
+
+/*_____________
+descrizione
+  _____________*/
+
+.marca{
+    font-size: 13px;
+}
+.testo{
+    font-weight: 600;
+}
+.price{
+    color: red;
+    font-weight: 600;
+    font-size: 14px;
+}
+.old-price{
+    font-size: 14px;
+    text-decoration: line-through;
+}
+/*_____________
+ Fine descrizione
+  _____________*/
+
+/*_____________
+etichette
+  _____________*/
+  .sconto, .etichetta{
+    position: absolute;
+    top: 576px;
+    padding: 3px 9px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .sconto{
+    background-color: red;
+  }
+
+  .etichetta{
+    background-color: #008000;
+    left: 57px;
+  }
+
+  .prefer{
+    background-color: white;
+    color: black;
+    top: 10px;
+    position: absolute;
+    right: 0;
+    padding: 8px;
+  }
+
+  .prefer:hover{
+    color: red;
+  }
+/*_____________
+fine etichette
+  _____________*/
+/* _____________
+Fine main
+________________ */
+
 
 
 
