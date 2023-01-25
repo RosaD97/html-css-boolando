@@ -31,7 +31,7 @@ header{
     align-items: center;
 }
 
-.barra-header{
+.barra-header, .barra-footer{
     display: flex;
     justify-content: space-between;
     width: 1380px;
@@ -40,6 +40,9 @@ header{
 
 .gender{
  font-weight: 700;
+ color: white;
+ text-decoration: none;
+ padding-right: 3px;
 }
 
 img{
@@ -170,9 +173,37 @@ fine etichette
 Fine main
 ________________ */
 
-
-
-
 /* _____________
 footer
 ________________ */
+
+footer{
+    height: 110px;
+    background-color: #1a1a1a;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nome{
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+div.azienda a{
+    text-decoration: none;
+    color: white;
+    padding-right: 5px;
+}
+.testo-icone{
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+.fa-brands{
+    background-color: white;
+    color: #1a1a1a;
+    font-size: 14px;
+    padding: 2px;
+    margin-left: 2px;
+}
